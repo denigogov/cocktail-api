@@ -70,9 +70,7 @@ const drinks = [
 const drink = {
   status: "success",
   result: drinks.length,
-  data: {
-    drinks: drinks,
-  },
+  drinks: drinks,
 };
 
 module.exports = drink;
