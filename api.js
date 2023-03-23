@@ -11,16 +11,14 @@ const drinks = [
     instructions:
       "Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass.",
 
-    ingredients: {
-      Ingredients1: "Tequila",
-      Ingredients2: "Lime juice",
-      Ingredients3: "Fresh Limes",
-      Ingredients4: "Margarita Salt",
-      Ingredients5: "Triple Sec",
-      Ingredients6: "Fresh Fruit",
-      Ingredients6: "Fresh Fruit",
-      Ingredients7: "Ice",
-    },
+    Ingredients1: "Tequila",
+    Ingredients2: "Lime juice",
+    Ingredients3: "Fresh Limes",
+    Ingredients4: "Margarita Salt",
+    Ingredients5: "Triple Sec",
+    Ingredients6: "Fresh Fruit",
+    Ingredients6: "Fresh Fruit",
+    Ingredients7: "Ice",
   },
 
   {
@@ -35,14 +33,12 @@ const drinks = [
     instructions:
       "Mint sprigs muddled with sugar and lime juice. Rum added and topped with soda water. Garnished with sprig of mint leaves. Served with a straw.",
 
-    ingredients: {
-      Ingredients1: "White rum",
-      Ingredients2: "Fresh lime juice",
-      Ingredients3: "2 teaspoons Sugar",
-      Ingredients4: "6 leaves of Min",
-      Ingredients5: "Soda Water",
-      Ingredients6: "Ice",
-    },
+    Ingredients1: "White rum",
+    Ingredients2: "Fresh lime juice",
+    Ingredients3: "2 teaspoons Sugar",
+    Ingredients4: "6 leaves of Min",
+    Ingredients5: "Soda Water",
+    Ingredients6: "Ice",
   },
 
   {
@@ -57,13 +53,11 @@ const drinks = [
     instructions:
       "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass",
 
-    ingredients: {
-      Ingredients1: " Absolut Vodka",
-      Ingredients2: "Kahlúa",
-      Ingredients3: "Espresso",
-      Ingredients4: "3 Whole Coffee Beans",
-      Ingredients5: "Ice",
-    },
+    Ingredients1: " Absolut Vodka",
+    Ingredients2: "Kahlúa",
+    Ingredients3: "Espresso",
+    Ingredients4: "3 Whole Coffee Beans",
+    Ingredients5: "Ice",
   },
 ];
 
