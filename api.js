@@ -1,8 +1,8 @@
 const drinks = [
   {
-    name: "Margarita",
+    name: "margarita",
     id: "1",
-    category: "Coctail",
+    category: "Cocktail",
     alcoholic: "Alcoholic",
     image:
       "https://i.pinimg.com/564x/19/e1/da/19e1dacac79497c3dd76f7687d5de4e0.jpg",
@@ -23,9 +23,9 @@ const drinks = [
   },
 
   {
-    name: "Mojito",
+    name: "mojito",
     id: "2",
-    category: "Coctail",
+    category: "Cocktail",
     alcoholic: "Alcoholic",
     image:
       "https://i.pinimg.com/564x/68/02/ae/6802ae4809eaf7c8c9dc19e919478bca.jpg",
@@ -44,16 +44,16 @@ const drinks = [
   },
 
   {
-    name: "Espresso martini",
+    name: "espresso martini",
     id: "3",
-    category: "Coctail",
+    category: "Cocktail",
     alcoholic: "Alcoholic",
     image:
       "https://i.pinimg.com/564x/66/65/18/66651833afc98623b8dbfdaf5dd9ac8e.jpg",
     description:
       "The espresso martini, also known as a vodka espresso, is a cold caffeinated alcoholic drink made with espresso, coffee liqueur, and vodka. It is not a true martini as it contains neither gin nor vermouth, but is one of many drinks that incorporate the term martini into their names.",
     instructions:
-      "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass",
+      "Espresso Martini Prep: Brew a shot of espresso and let it cool. Fill a shaker with ice. Add vodka, coffee liqueur, and cooled espresso. Shake vigorously to chill and froth. Strain into a martini glass. Optional: garnish with coffee beans or dust with cocoa powder. ",
 
     ingredients1: " Absolut Vodka",
     ingredients2: "Kahlúa",
@@ -64,14 +64,14 @@ const drinks = [
   },
 
   {
-    name: "Hot Toddy",
+    name: "hot toddy",
     id: "4",
-    category: "Coctail",
+    category: "Cocktail",
     alcoholic: "Alcoholic",
     image:
       "https://cdn.vectorstock.com/i/1000x1000/02/37/wassail-hot-apple-cider-traditional-winter-vector-39380237.webp",
     description:
-      "A hot toddy, also known as hot whiskey in Ireland, is typically a mixed drink made of liquor and water with honey, lemon, herbs and spices, and served hot. Recipes vary, and hot toddy is traditionally drunk before retiring for the night, in wet or cold weather or to relieve the symptoms of the cold and flu. In How to Drink, Victoria Moore describes the drink as 'the vitamin C for health, the honey to soothe, the alcohol to numb.' ",
+      "A hot toddy, also known as hot whiskey in Ireland, is typically a mixed drink made of liquor and water with honey, lemon, herbs and spices, and served hot. In How to Drink, Victoria Moore describes the drink as 'the vitamin C for health, the honey to soothe, the alcohol to numb.' ",
     instructions:
       "A hot toddy is a mixture of a spirit (usually whisky), hot water, and honey (or, in some recipes, sugar). In Canada, maple syrup may be used. Additional ingredients such as cloves, a lemon slice or cinnamon (in stick or ground form) are often also added.",
 
@@ -85,14 +85,14 @@ const drinks = [
   },
 
   {
-    name: "Mulled Wine",
+    name: "mulled wine",
     id: "5",
-    category: "Coctail",
+    category: "Cocktail",
     alcoholic: "Alcoholic",
     image:
       "https://cdn.vectorstock.com/i/1000x1000/12/03/composition-on-white-with-mulled-wine-vector-12181203.webp",
     description:
-      "Mulled wine, also known as spiced wine, is an alcoholic drink usually made with red wine, along with various mulling spices and sometimes raisins, served hot or warm. It is a traditional drink during winter, especially around Christmas. It is usually served at Christmas markets in Europe, primarily in Germany and eastern France. There are non-alcoholic versions of it. Vodka-spiked mulled wine can be found in Polish Christmas markets, where mulled wine is commonly used as a mixer. ",
+      "Mulled wine, also known as spiced wine, is an alcoholic drink usually made with red wine, along with various mulling spices and sometimes raisins, served hot or warm. It is a traditional drink during winter, especially around Christmas. It is usually served at Christmas markets in Europe, primarily in Germany and eastern France.  ",
     instructions:
       "Gently rewarm mulled wine in a large pot on the stovetop over low heat, or pour leftovers into your slow cooker and reheat on LOW until warm. If you choose to reheat your leftover refrigerated mulled wine, be aware that the flavors may not be as vibrant as they are when it's freshly made.",
 
@@ -106,9 +106,9 @@ const drinks = [
   },
 
   {
-    name: "Grapefruit Paloma",
+    name: "grapefruit paloma",
     id: "6",
-    category: "Coctail",
+    category: "Cocktail",
     alcoholic: "Alcoholic",
     image:
       "https://cdn.vectorstock.com/i/1000x1000/05/74/paloma-cocktail-icon-alcoholic-mixed-drink-vector-44090574.webp",
@@ -123,6 +123,86 @@ const drinks = [
     ingredients4: "15ml agave nectar",
     ingredients5: "Top up with Grapefruit soda water",
     ingredients6: "4 tbsp caster sugar",
+    season: "spring",
+  },
+
+  {
+    name: "winter sangria",
+    id: "7",
+    category: "Cocktail",
+    alcoholic: "Alcoholic",
+    image:
+      "https://cdn.vectorstock.com/i/1000x1000/60/62/christmas-punch-with-fruit-and-cranberries-vector-44876062.webp",
+    description:
+      "Winter Sangria is a festive twist on the classic Spanish drink, made with red wine, fruit, and spices. Perfect for cozy gatherings, it features seasonal fruits, aromatic spices, and a delightful balance of fruity sweetness and warmth. Enjoy it hot or cold at winter parties or by the fireplace for a refreshing and flavorful beverage.",
+    instructions:
+      "Combine red wine, fresh fruit slices, spices, sugar or sweetener, and orange juice in a pitcher. Chill in the refrigerator for 2-3 hours or overnight. Serve in glasses with fruit and spices, and enjoy the warm and festive flavors of Winter Sangria at your cozy gatherings or winter parties!",
+
+    ingredients1: "red wine",
+    ingredients2:
+      "Fresh fruit slices (such as oranges, apples, and pomegranate seeds)",
+    ingredients3: "Spices (such as cinnamon sticks, cloves, and star anise)",
+    ingredients4: "Sugar or sweetener (to taste)",
+    ingredients5: "Orange juice",
+    ingredients6: "Brandy (optional)",
+    ingredients6: "Ice (for serving)",
+    season: "winter",
+  },
+
+  {
+    name: "aperol spritz",
+    id: "8",
+    category: "Cocktail",
+    alcoholic: "Alcoholic",
+    image:
+      "https://cdn.vectorstock.com/i/1000x1000/04/94/spritz-cocktail-icon-alcoholic-mixed-drink-vector-44090494.webp",
+    description:
+      "A beloved Italian cocktail featuring bittersweet notes. Crafted with Aperol, prosecco, and soda water, it's a refreshing and vibrant libation that's perfect for spring sips. Whether enjoyed at outdoor gatherings or while lounging on the patio, this classic drink is sure to elevate your springtime experience. Cheers to the bright and cheerful flavors of the season!",
+    instructions:
+      "Fill a wine glass with ice. Pour in 2 oz of Aperol. Add 3 oz of prosecco. Top off with a splash of soda water. Gently stir to combine. Garnish with an orange slice. Savor the refreshing bittersweet flavors of this classic Italian cocktail, perfect for springtime sips! Cheers!",
+
+    ingredients1: "Aperol",
+    ingredients2: "Prosecco",
+    ingredients3: "Soda water (a splash)",
+    ingredients4: "Ice",
+    ingredients5: "Orange slice (for garnish)",
+    season: "spring",
+  },
+
+  {
+    name: "cucumber mint gimlet",
+    id: "9",
+    category: "Cocktail",
+    alcoholic: "Alcoholic",
+    image:
+      "https://cdn.vectorstock.com/i/1000x1000/05/45/gimlet-cocktail-icon-alcoholic-mixed-drink-vector-44090545.webp",
+    description:
+      "A refreshing twist on a classic cocktail. Made with muddled cucumber, fresh mint, gin, lime juice, and a touch of sweetness. Perfectly balanced, crisp, and aromatic, this cocktail is a perfect choice for warm weather sipping. Cheers to the cool and refreshing flavors of cucumber and mint!",
+    instructions:
+      "Muddle fresh cucumber and mint in a shaker. Add gin, lime juice, and a touch of sweetness. Shake well with ice to chill and combine flavors. Strain into a glass. Garnish with a cucumber slice and mint sprig. Savor the refreshing, crisp, and aromatic flavors of this delightful twist on a classic cocktail.",
+    ingredients1: "Cucumber Gin",
+    ingredients2: "fresh lime juice",
+    ingredients3: "Mint Simple Syrup",
+    ingredients4: "Cucumber peels, for garnish",
+    ingredients5: "Fresh mint sprigs, for garnish",
+    season: "spring",
+  },
+
+  {
+    name: "mint julep",
+    id: "10",
+    category: "Cocktail",
+    alcoholic: "Alcoholic",
+    image:
+      "https://cdn.vectorstock.com/i/1000x1000/05/68/mint-julep-cocktail-icon-alcoholic-mixed-drink-vector-44090568.webp",
+    description:
+      "mint julep is an alcoholic drink traditionally made with bourbon, sugar, and finely cracked ice and garnished with sprigs of mint, served in a tall, frosted glass: also made with other kinds of whiskey, brandy, and sometimes rum. The name Mint Julep comes from a Persian word “gulab” and an Arab word “julab”. ",
+    instructions: `Prepare some very cold very dry crushed ice with chunks of ice and a canvas ice bag. "Bruise" the mint leaves in the bottom of a julep cup with sugar syrup. Add ice to the three quarter mark and half of the bourbon. Stir to chill the julep cup.`,
+    ingredients1: "Cucumber Gin",
+    ingredients2: "fresh lime juice",
+    ingredients3: "Mint Simple Syrup",
+    ingredients4: "Cucumber peels, for garnish",
+    ingredients5: "Fresh mint sprigs, for garnish",
     season: "spring",
   },
 ];
