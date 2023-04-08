@@ -5,11 +5,11 @@ const drinks = [
     category: "Cocktail",
     alcoholic: "Alcoholic",
     image:
-      "https://i.pinimg.com/564x/19/e1/da/19e1dacac79497c3dd76f7687d5de4e0.jpg",
+      "https://cdn.vectorstock.com/i/1000x1000/38/60/margarita-cocktail-isolated-on-white-vector-7453860.webp",
     description:
       "A margarita is a cocktail consisting of Tequila, triple sec, and lime juice. Some margarita recipes include simple syrup as well and are often served with salt on the rim of the glass. Margaritas can either be served shaken with ice, without ice, or blended with ice.",
     instructions:
-      "Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass.",
+      "to make a Margarita cocktail, rim a glass with salt. Fill a shaker with ice. Add tequila, triple sec, and fresh lime juice. Shake well. Strain into the glass. Garnish with a lime wheel or wedge, if desired. Sip and enjoy the zesty and tangy flavors of this classic cocktail. ",
 
     ingredients1: "Tequila",
     ingredients2: "Lime juice",
@@ -23,23 +23,23 @@ const drinks = [
   },
 
   {
-    name: "mojito",
+    name: "hot buttered rum",
     id: "2",
     category: "Cocktail",
     alcoholic: "Alcoholic",
     image:
-      "https://i.pinimg.com/564x/68/02/ae/6802ae4809eaf7c8c9dc19e919478bca.jpg",
+      "https://cdn.vectorstock.com/i/1000x1000/02/56/hot-buttered-rum-cocktail-stylish-hand-drawn-vector-39380256.webp",
     description:
-      "Mojito is a traditional Cuban punch. The cocktail often consists of five ingredients: white rum, sugar, lime juice, soda water, and mint. Its combination of sweetness, citrus, and herbaceous mint flavors is intended to complement the rum, and has made the mojito a popular summer drink",
+      "Hot Buttered Rum is a comforting winter cocktail made with rum, butter, brown sugar, and warm spices. It's rich, creamy, and perfect for sipping by the fire on a chilly evening. Cozy up with this classic cocktail during the holiday season or on a cold winter's night",
     instructions:
-      "Mint sprigs muddled with sugar and lime juice. Rum added and topped with soda water. Garnished with sprig of mint leaves. Served with a straw.",
+      "In a heatproof glass, add a pat of butter, brown sugar, and warm spices. Pour in hot water or hot apple cider. Stir until butter is melted and sugar is dissolved. Add rum and garnish with a cinnamon stick or orange twist.",
 
-    ingredients1: "White rum",
-    ingredients2: "Fresh lime juice",
-    ingredients3: "2 teaspoons Sugar",
-    ingredients4: "6 leaves of Min",
-    ingredients5: "Soda Water",
-    ingredients6: "Ice",
+    ingredients1: "Rum",
+    ingredients2: "Brown sugar",
+    ingredients3: "Warm spices (such as cinnamon, nutmeg, and cloves)",
+    ingredients4: "Hot water or hot apple cider",
+    ingredients5: "Butter",
+    ingredients6: "Cinnamon stick or orange twist (for garnish)",
     season: "autumn",
   },
 
@@ -155,18 +155,18 @@ const drinks = [
     category: "Cocktail",
     alcoholic: "Alcoholic",
     image:
-      "https://cdn.vectorstock.com/i/1000x1000/04/94/spritz-cocktail-icon-alcoholic-mixed-drink-vector-44090494.webp",
+      "https://img.freepik.com/premium-vector/vector-engraved-style-aperol-spritz-alcoholic-cocktail-hand-drawn-sketch-drink-beverage_93150-1756.jpg?w=360",
     description:
       "A beloved Italian cocktail featuring bittersweet notes. Crafted with Aperol, prosecco, and soda water, it's a refreshing and vibrant libation that's perfect for spring sips. Whether enjoyed at outdoor gatherings or while lounging on the patio, this classic drink is sure to elevate your springtime experience. Cheers to the bright and cheerful flavors of the season!",
     instructions:
-      "Fill a wine glass with ice. Pour in 2 oz of Aperol. Add 3 oz of prosecco. Top off with a splash of soda water. Gently stir to combine. Garnish with an orange slice. Savor the refreshing bittersweet flavors of this classic Italian cocktail, perfect for springtime sips! Cheers!",
+      "Fill a wine glass with ice. Pour in 2 oz of Aperol. Add 3 oz of prosecco. Top off with a splash of soda water. Gently stir to combine. Garnish with an orange slice. Savor the refreshing bittersweet flavors of this classic Italian cocktail, perfect for springtime sips!",
 
     ingredients1: "Aperol",
     ingredients2: "Prosecco",
     ingredients3: "Soda water (a splash)",
     ingredients4: "Ice",
     ingredients5: "Orange slice (for garnish)",
-    season: "spring",
+    season: "summer",
   },
 
   {
@@ -204,6 +204,111 @@ const drinks = [
     ingredients4: "Cucumber peels, for garnish",
     ingredients5: "Fresh mint sprigs, for garnish",
     season: "spring",
+  },
+
+  {
+    name: "lavender lemonade",
+    id: "11",
+    category: "Cocktail",
+    alcoholic: "Alcoholic",
+    image:
+      "https://cdn.vectorstock.com/i/1000x1000/51/20/lemonade-with-lemon-and-lavender-art-vector-42485120.webp",
+    description:
+      "Lavender Lemonade is a refreshing springtime cocktail made with lemon juice, simple syrup, and fragrant lavender syrup, served over ice. It's a delightful balance of tartness and floral sweetness, perfect for sipping on a warm day. Cheers to spring! ",
+    instructions: `Combine lemon juice, simple syrup, and lavender syrup in a shaker with ice. Shake well. Strain into a glass with ice. Garnish with a sprig of lavender. Sip and enjoy this refreshing floral cocktail that captures the essence of spring!`,
+    ingredients1: "Cucumber Gin",
+    ingredients2: "fresh lime juice",
+    ingredients3: "Mint Simple Syrup",
+    ingredients4: "Cucumber peels, for garnish",
+    ingredients5: "Fresh mint sprigs, for garnish",
+    season: "spring",
+  },
+
+  {
+    name: "pina colada",
+    id: "12",
+    category: "Cocktail",
+    alcoholic: "Alcoholic",
+    image:
+      "https://img.freepik.com/premium-vector/alcohol-cocktail-with-pineapple-drinking-straw-drink-with-coconut-cream-rum-pina-colada_649605-177.jpg?w=360",
+    description:
+      "Piña Colada is a classic tropical cocktail made with rum, coconut cream, and pineapple juice. Blended with ice, it creates a luscious and creamy drink with a perfect balance of sweetness and tanginess. Sip on this refreshing cocktail and let its tropical flavors transport you to a beach getaway",
+    instructions: `Prepare a blender. Add all ingredients: rum, coconut cream, pineapple juice, and ice. Blend until smooth. Pour into a glass. Garnish with a pineapple wedge and cherry. Sip and enjoy this refreshing tropical cocktail! `,
+    ingredients1: "rum",
+    ingredients2: "coconut cream",
+    ingredients3: "pineapple juice",
+    ingredients4: "cup of ice",
+    season: "summer",
+  },
+
+  {
+    name: "daiquiri",
+    id: "13",
+    category: "Cocktail",
+    alcoholic: "Alcoholic",
+    image:
+      "https://cdn.vectorstock.com/i/1000x1000/16/82/daiquiri-cocktail-hand-drawn-alcohol-drink-vector-46331682.webp",
+    description:
+      "Daiquiri is a classic cocktail made with rum, fresh lime juice, and simple syrup. It's a tart and tangy drink with a perfect balance of sweetness and acidity, served straight up or on the rocks. The bright and zesty flavors make it a refreshing choice for warm weather, perfect for sipping and enjoying during the summer months",
+    instructions: `To make a Daiquiri cocktail, fill a shaker with ice. Add rum, fresh lime juice, and simple syrup. Shake vigorously. Strain into a chilled glass. Garnish with a lime wheel or twist, if desired. Sip and savor the tangy and refreshing flavors of this timeless cocktail.`,
+    ingredients1: "rum",
+    ingredients2: "coconut cream",
+    ingredients3: "pineapple juice",
+    ingredients4: "cup of ice",
+    season: "summer",
+  },
+
+  {
+    name: "spiced apple cider",
+    id: "14",
+    category: "Cocktail",
+    alcoholic: "Alcoholic",
+    image:
+      "https://cdn.vectorstock.com/i/1000x1000/39/02/apple-cider-or-punch-with-cinnamon-vector-41843902.webp",
+    description:
+      "Spiced Apple Cider is a warm, comforting autumn cocktail with flavors of apple cider, bourbon or rum, and fragrant spices like cinnamon and nutmeg. Perfect for chilly evenings, it's a balanced and inviting drink that captures the essence of fall in a glass. Cheers to the flavors of autumn with this delicious and cozy Spiced Apple Cider cocktail",
+    instructions: `Combine apple cider, bourbon or rum, cinnamon sticks, and a pinch of nutmeg in a saucepan. Warm over low heat, stirring occasionally. Remove from heat and strain into a heatproof glass or mug. Garnish with a cinnamon stick or apple slice`,
+    ingredients1: "rum",
+    ingredients2: "coconut cream",
+    ingredients3: "pineapple juice",
+    ingredients4: "cup of ice",
+    season: "autumn",
+  },
+
+  {
+    name: "old fashioned",
+    id: "15",
+    category: "Cocktail",
+    alcoholic: "Alcoholic",
+    image:
+      "https://cdn.vectorstock.com/i/1000x1000/58/45/cocktail-old-fashioned-vector-20745845.webp",
+    description:
+      "The Old Fashioned is a classic cocktail with whiskey, sugar, bitters, and a garnish. Stirred with ice for a smooth texture, it's served in a short glass. Perfect for fall or anytime you want a bold and elegant drink. Cheers to the classic allure of the Old Fashioned!",
+    instructions: `To make an Old Fashioned: Sugar + bitters muddled. Whiskey/bourbon added. Ice stirred. Strain into glass with large ice cube. Express orange twist, garnish with twist/cherry. Sip and enjoy!`,
+    ingredients1: "Whiskey or bourbon of your choice",
+    ingredients2: "Sugar cube or small amount of sugar",
+    ingredients3: "Aromatic bitters",
+    ingredients4: "Orange twist or cherry for garnish",
+    ingredients5: "Ice",
+    season: "autumn",
+  },
+
+  {
+    name: "eggnog punch",
+    id: "16",
+    category: "Cocktail",
+    alcoholic: "Alcoholic",
+    image:
+      "https://cdn.vectorstock.com/i/1000x1000/97/29/eggnog-or-egg-milk-punch-cocktail-stylish-hand-vector-39129729.webp",
+    description:
+      "Creamy, rich, and indulgent, Eggnog Punch is a holiday classic! Made with eggnog, rum, spices, and a hint of sweetness, this festive cocktail is perfect for gatherings and celebrations. Cheers to the holiday season! ",
+    instructions: `Mix eggnog, rum, spices, and sweetener. Stir well. Chill in fridge. Pour into glasses when ready to serve. Garnish with nutmeg. Enjoy the creamy and festive flavors of Eggnog Punch! `,
+    ingredients1: "Whiskey or bourbon of your choice",
+    ingredients2: "Sugar cube or small amount of sugar",
+    ingredients3: "Aromatic bitters",
+    ingredients4: "Orange twist or cherry for garnish",
+    ingredients5: "Ice",
+    season: "autumn",
   },
 ];
 
